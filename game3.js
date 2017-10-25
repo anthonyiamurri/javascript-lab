@@ -47,7 +47,7 @@ function startCombat() {
       console.log(computer.name + " has " + computer.health + " health points.");
       if (user.health <= 0) {
         console.log("You lost. Game over!");
-      } else if (computer.health <= 0 && user.wins >= 2) {
+      } else if (computer.health <= 0 && user.wins >= 4) {
         console.log("You beat Almighty Grant!");
         break;
       } else if (computer.health <= 0) {

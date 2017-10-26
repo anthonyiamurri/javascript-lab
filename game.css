@@ -1,0 +1,28 @@
+body {
+  background-color: rgba(190, 217, 249, 1);
+}
+
+button {
+  background-color: teal;
+  color: rgba(255, 255, 255, 1);
+  border-color: teal;
+  margin: 3px;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
+
+p {
+
+}
+
+#start {
+  border: 5px solid green;
+  display: contents;
+}
+
+#gameplay {
+  display: none;
+}

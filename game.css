@@ -1,5 +1,7 @@
 body {
   background-color: rgba(190, 217, 249, 1);
+  font-size: 12px;
+  font-family: helvetica, sans-serif;
 }
 
 button {
@@ -15,14 +17,24 @@ div {
 }
 
 p {
+}
 
+progress {
+  padding: 3px;
+  background-color: white;
+  height: 12px;
 }
 
 #start {
-  border: 5px solid green;
   display: contents;
 }
 
 #gameplay {
   display: none;
+}
+
+#stats {
+  background-color: teal;
+  margin: 15%;
+  padding: 5%;
 }
